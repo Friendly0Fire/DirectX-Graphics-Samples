@@ -37,3 +37,6 @@
 /Samples/Desktop/D3D12Raytracing/src/D3D12RaytracingSimpleLighting/D3D12RaytracingSimpleLighting.vcxproj.user
 /Samples/Desktop/D3D12Raytracing/src/D3D12RaytracingSimpleLighting/bin/x64
 /Samples/Desktop/D3D12Raytracing/src/.vs/D3D12Raytracing/v15
+
+Build_*
+*.VC.db
