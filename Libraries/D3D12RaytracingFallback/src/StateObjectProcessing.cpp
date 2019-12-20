@@ -180,7 +180,7 @@ HRESULT CStateObjectInfo::ParseStateObject(
                 if(m_bUsePrototypeInterface)
                 {
                     D3D12_HIT_GROUP_DESC TranslatedHitGroup = {}; // delete once prototype interface no longer needed
-                    auto pExperimental = (const D3D12_EXPERIMENTAL_HIT_GROUP_DESC*)pDesc;
+                    auto pExperimental = (const D3D12_HIT_GROUP_DESC*)pDesc;
                     const void* pHitGroupDescToUse = pDesc;
                     if(pExperimental)
                     {
